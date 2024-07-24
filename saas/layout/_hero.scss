@@ -1,0 +1,47 @@
+.hero{
+    background-image: url(../img/mobile-img/rectangle.jpg);
+}
+
+.title-hero{
+color: $zagolovok;
+text-align: center;
+font-family: Jost;
+font-size: 65px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.hero-span{
+    color:  $tekst;
+    font-family: Jost;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+@media screen and (min-width: 480px) {
+
+  }
+  @media screen and (min-width: 768px) {
+    
+  }
+  @media screen and (min-width: 1200px) {
+    .title-hero{
+        color: $zagolovok;
+        text-align: center;
+        font-family: Jost;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        }
+        .hero-span{
+            color:  $tekst;
+            font-family: Jost;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+  }
