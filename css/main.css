@@ -51,4 +51,47 @@ img {
   .conteiner {
     width: 1200px;
   }
+}
+
+.hero {
+  background-image: url(../img/mobile-img/rectangle.jpg);
+}
+
+.title-hero {
+  color: #0075ff;
+  text-align: center;
+  font-family: Jost;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.hero-span {
+  color: #ffc700;
+  font-family: Jost;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+@media screen and (min-width: 1200px) {
+  .title-hero {
+    color: #0075ff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  .hero-span {
+    color: #ffc700;
+    font-family: Jost;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=main.css.map */
