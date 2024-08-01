@@ -1,32 +1,52 @@
-.header {
-    background-color: rgb(1, 6, 50);
+.header{
+    background-color:#010632;
 }
-.nav-list {
+.nav-list{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.span-stand {
-    color: rgb(0, 117, 255);
+
+.span-reshitka{
+    color: $tekst-main;
     font-family: "Istok Web";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.span-with {
-    color: rgb(255, 255, 255);
+.span-stand{
+    color: $zagolovok;
     font-family: "Istok Web";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.span-Ukraine {
-    color: rgb(255, 199, 0);
+.span-with{
+    color: $tekst-main;
+font-family: "Istok Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.span-Ukraine{
+    color: $tekst;
     font-family: "Istok Web";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
+
+@media screen and (min-width: 480px) {
+    
+  }
+  @media screen and (min-width: 768px) {
+    
+  }
+  @media screen and (min-width: 1200px) {
+    
+  }

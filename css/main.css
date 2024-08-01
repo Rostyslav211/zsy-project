@@ -54,7 +54,7 @@ img {
 }
 
 .header {
-  background-color: rgb(1, 6, 50);
+  background-color: #010632;
 }
 
 .nav-list {
@@ -63,8 +63,17 @@ img {
   align-items: center;
 }
 
+.span-reshitka {
+  color: #fff;
+  font-family: "Istok Web";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .span-stand {
-  color: rgb(0, 117, 255);
+  color: #0075ff;
   font-family: "Istok Web";
   font-size: 20px;
   font-style: normal;
@@ -73,7 +82,7 @@ img {
 }
 
 .span-with {
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-family: "Istok Web";
   font-size: 20px;
   font-style: normal;
@@ -82,7 +91,7 @@ img {
 }
 
 .span-Ukraine {
-  color: rgb(255, 199, 0);
+  color: #ffc700;
   font-family: "Istok Web";
   font-size: 20px;
   font-style: normal;
