@@ -27,6 +27,14 @@ line-height: normal;
     
   }
   @media screen and (min-width: 1200px) {
+
+    .hero{
+        background-image: url(../img/background-hero-tablet.jpg);
+        height: 450px;
+    }
+
+
+
     .title-hero{
         color: $zagolovok;
         text-align: center;

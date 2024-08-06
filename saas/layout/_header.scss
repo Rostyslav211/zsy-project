@@ -7,6 +7,16 @@
     align-items: center;
 }
 
+.nav-item:nth-child(1){
+display: none;
+}
+.nav-item:nth-child(2){
+    display: none;
+}
+.nav-item:nth-child(4){
+    display: none;
+}
+
 .span-reshitka{
     color: $tekst-main;
     font-family: "Istok Web";
@@ -48,5 +58,47 @@ line-height: normal;
     
   }
   @media screen and (min-width: 1200px) {
-    
+    .nav-list{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-item:nth-child(1){
+        display: block;
+        }
+        .nav-item:nth-child(2){
+            display: block;
+        }
+        .nav-item:nth-child(4){
+            display: block;
+        }
+
+        .nav-item{
+            color: #FFF;
+            font-family: Jost;
+             font-size: 24px;
+             font-style: normal;
+             font-weight: 400;
+            line-height: normal;
+        }
+        .span-reshitka{
+            
+            font-size: 48px;
+            
+        }
+        .span-stand{
+           
+            font-size: 48px;
+            
+        }
+        .span-with{
+           
+        font-size: 48px;
+        
+        }
+        .span-Ukraine{
+            
+            font-size: 48px;
+           
+        }
   }

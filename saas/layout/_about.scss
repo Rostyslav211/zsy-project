@@ -1,6 +1,6 @@
-
 .about-firstbox{
     background: #010632;
+    padding-bottom: 25px;
 }
 .title-firstbox{
     color: #FFF;
@@ -21,6 +21,8 @@ line-height: normal;
 }
 .about-secondbox{
     background: #060D49;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .title-secondbox{
@@ -45,31 +47,48 @@ line-height: normal;
     flex-direction: column;
 }
 
-.firstbox-firstimg{
-    background-image: url(../img/solidar\(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 150px;
-   
+.firstbox-img{
+    display: flex;
+    gap: 10px;
 }
 
-.firstbox-secondimg{
-    background-image: url(../../img/solidar\(2\).jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 150px;
+
+
+.secondbox-img{
+    display: flex;
+    gap: 10px;
 }
 
-.secondbox-firstimg{
-    background-image: url(../img/solidar\(3\).jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 150px;
+@media screen and (min-width: 480px) {
+
 }
-.secondbox-secondimg{
-    background-image: url(../img/solidar\(4\).png);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 150px;
+@media screen and (min-width: 768px) {
+  
+}
+@media screen and (min-width: 1200px) {
+    .title-firstbox{
+        font-size: 48px;
+    }
+    .text-firstbox{
+        font-size: 24px;
+    }
+    .firstbox-img {
+       justify-content: center;
+    }
+
+    .secondbox-img {
+        justify-content: center;
+    }
+
+    .title-secondbox {
+        
+        font-size: 48px;
+        
+    }
+    .text-secondbox {
+    
+    font-size: 24px;
+    
+}
 }
 
